@@ -131,6 +131,7 @@ where possible.
    Read the docstring of the `grade()` function, then compare each line
    of program output with the contents of `marks.csv`. Can you see another
    problem here?
+   Penny Jones gets a 'Pass' bt her mark of 70 is a 'Distiction'.
 
 ## Third & Fourth Bugs
 

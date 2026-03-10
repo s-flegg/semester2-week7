@@ -65,5 +65,7 @@ int main(int argc, char* argv[])
 
     printf("Sum of values = %ld\n", sum);
 
+    LOG_MSG("main(): printed output message with sum\n");
+
     return 0;
 }
