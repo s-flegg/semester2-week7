@@ -3,7 +3,7 @@
 
 long factorial(int n)
 {
-    return n * factorial(n - 1);
+    return (n<=1) ? 1: (unsigned long) n * factorial(n - 1);
 }
 
 int main(int argc, char* argv[])
@@ -15,9 +15,9 @@ int main(int argc, char* argv[])
 
     int value = atoi(argv[1]);
 
-    long result = factorial(value);
+    unsigned long result = factorial(value);
 
-    printf("%d! = %ld\n", value, result);
+    printf("%d! = %lu\n", value, result);
 
     return 0;
 }
