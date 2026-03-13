@@ -26,6 +26,12 @@ message and terminate.
 2. Run the program to check whether it meets all of the expectations outlined
    above. Make a note of your findings.
 
+   No file: Correct
+   File 1: Correct
+   File 2: Incorrect
+   File 3: Incorrect
+   File 4: Incorrect
+
 ## Function Breakpoints
 
 1. Load the program into GDB, then establish breakpoints just inside the
@@ -80,6 +86,8 @@ non-numeric input correctly.
 3. Enter `c` to resume execution. You should see the program pause when
    `value` is -0.6. If you enter `n`, you will see that this negative number
    is incorrectly assigned to the array `data`.
+   
+   -0.6 is never read?
 
 4. Enter `finish` or `fin` to complete execution of `read_data()`. This
    will put you back in `main()`. If you print the value of `size` you will
